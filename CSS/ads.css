@@ -1,0 +1,33 @@
+#title {
+    font-family: arial,sans-serif;
+    text-align: center
+}
+
+#componentes {
+    border: 3px solid #ddd;
+    border-collapse: collapse;
+    font-family: Trebuchet MS,Arial,Helvetica,sans-serif;
+    text-align: center;
+    width: 100%
+}
+
+#componentes td,#componentes th {
+    border: 1px solid #ddd;
+    padding: 8px
+}
+
+#componentes tr:nth-child(2n) {
+    background-color: #f2f2f2
+}
+
+#componentes tr:hover {
+    background-color: #ddd
+}
+
+#componentes th {
+    background-color: #4caf50;
+    color: #fff;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    text-align: center
+}
